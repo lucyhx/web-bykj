@@ -1,0 +1,90 @@
+.navbar-baoyun{
+  background: white no-repeat right top;
+  height: 50px;
+  border: 0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 200px;
+  margin-left: 10px;
+  float: right;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.navbar-brand{
+  padding: 0;
+}
+.carousel-indicators li{
+  border-radius: 0;
+  width: 46px;
+  height: 6px;
+  background: #fff;
+  border: 0;
+  margin: 1px 10px;
+}
+.carousel-indicators .active{
+  width: 46px;
+  height: 6px;
+  background: #ffd900;
+  margin: 1px 10px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #00afed;
+  background: none;
+}
+.navbar>.container .navbar-brand{
+
+}
+/*大屏幕*/
+@media (min-width: 768px){
+  .navbar>.container .navbar-brand{
+    position: absolute;
+    left: 30%;
+    font-size: 60px;
+    color: #ffd900;
+  }
+  .collapse-baoyun{
+    margin-top: 18px;
+  }
+  .collapse-baoyun .nav>li>a{
+    padding: 0;
+    min-width: 80px;
+  }
+  .collapse-baoyun .navbar-nav>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .collapse-baoyun .navbar-nav>li>a small {
+    display: block;
+  }
+  .carousel-indicators {
+    bottom: 0;
+  }
+}
+.img-responsive{
+  width:100%;
+}
+.carousel-baoyun{
+  margin-top: -66px;
+  margin-bottom: 40px;
+}
+
+.carousel-bottom{
+  height: 55px;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.gs{
+  width:100%;
+}
+
+.gs-js-img{
+  width: 100%;
+}
