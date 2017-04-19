@@ -127,10 +127,8 @@ margin-left: 25%;
 }
 
 .jt{
-  margin-top: 40%;
-  margin-bottom: 40%;
-  margin-left: 70%;
-  margin-right: 10%;
+  margin-top: 45%;
+  margin-left: 85%;
   padding-top: 40%;
 }
 
@@ -150,4 +148,19 @@ margin-left: 25%;
 
 .cp-word{
   text-align: center;
+}
+
+.tip{
+  margin-left: 15%;
+}
+
+.st{
+  float: left;
+  margin-left: 2%;
+}
+
+.jt-1{
+  margin-top: 45%;
+  margin-right: 85%;
+  padding-top: 40%;
 }
