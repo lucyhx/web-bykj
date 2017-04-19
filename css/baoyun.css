@@ -126,14 +126,21 @@ margin-left: 25%;
   background-color: darkgrey;
 }
 
-.jt{
-  margin-top: 45%;
-  margin-left: 85%;
-  padding-top: 40%;
+.jt-img-l {
+  width: 10%;
+  height: auto;
+  float: right;
+  margin-top: 90%;
+}
+
+.jt-img-r {
+  width: 10%;
+  height: auto;
+  float: left;
+  margin-top: 90%;
 }
 
 .zs{
-
 }
 
 .sj-zs{
@@ -150,17 +157,10 @@ margin-left: 25%;
   text-align: center;
 }
 
-.tip{
-  margin-left: 15%;
+.tip {
 }
 
-.st{
-  float: left;
-  margin-left: 2%;
-}
-
-.jt-1{
-  margin-top: 45%;
-  margin-right: 85%;
-  padding-top: 40%;
+.st-img {
+  width: 100%;
+  height: auto;
 }
