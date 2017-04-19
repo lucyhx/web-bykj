@@ -130,14 +130,24 @@ margin-left: 25%;
   width: 10%;
   height: auto;
   float: right;
-  margin-top: 90%;
+  margin-top: 100%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform:  translateY(-50%);
+  -ms-transform:  translateY(-50%);
+  -o-transform:  translateY(-50%);
+  transform:  translateY(-50%);
 }
 
 .jt-img-r {
   width: 10%;
   height: auto;
   float: left;
-  margin-top: 90%;
+  margin-top: 100%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform:  translateY(-50%);
+  -ms-transform:  translateY(-50%);
+  -o-transform:  translateY(-50%);
+  transform:  translateY(-50%);
 }
 
 .zs{
@@ -157,10 +167,7 @@ margin-left: 25%;
   text-align: center;
 }
 
-.tip {
-}
-
 .st-img {
-  width: 100%;
+  width: 12%;
   height: auto;
 }
