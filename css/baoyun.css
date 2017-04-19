@@ -89,7 +89,7 @@
 
 .gsjs{
   margin-right: 10%;
-  text-indent: -5em;
+  /*text-indent: -5em; // 没必要做偏移*/
 }
 .gs-js-img{
   width: 100%;
@@ -107,6 +107,12 @@ margin-left: 25%;
   height:auto;
 
 }
+
+.gs-img img {
+  width: 100%;
+  height: auto;
+}
+
 .gs-word{
   color:deepskyblue;
 }
