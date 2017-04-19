@@ -89,9 +89,11 @@
 
 .gsjs{
   margin-right: 10%;
+  text-indent: -5em;
 }
 .gs-js-img{
   width: 100%;
+  height:auto;
   margin-top: 10%;
 }
 .gs-bz{
@@ -101,8 +103,33 @@
 }
 .gs-img{
 margin-left: 25%;
+  width:100%;
+  height:auto;
 
+}
+.gs-word{
+  color:deepskyblue;
 }
 #cp{
   background-color: darkgrey;
+}
+
+.jt{
+  margin-top: 40%;
+  margin-bottom: 40%;
+  margin-left: 70%;
+  margin-right: 10%;
+  padding-top: 40%;
+}
+
+.zs{
+
+}
+.sj-zs{
+  width:100%;
+  height: auto;
+}
+
+.cp-word{
+  text-align: center;
 }
