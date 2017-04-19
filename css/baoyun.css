@@ -88,14 +88,20 @@
 }
 
 .gsjs{
-  margin-right: 10%;
-  /*text-indent: -5em; // 没必要做偏移*/
+  /*margin-right: 10%;*/
+  /*text-indent: -5em;*/
 }
 .gs-js-img{
   width: 100%;
   height:auto;
   margin-top: 10%;
 }
+
+.gs-js-img img {
+  width: 100%;
+  height:auto;
+}
+
 .gs-bz{
   width:100%;
   height: 25%;
