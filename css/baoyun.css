@@ -131,8 +131,14 @@ margin-left: 25%;
 .zs{
 
 }
+
 .sj-zs{
   width:100%;
+  height: auto;
+}
+
+.sj-zs img {
+  width: 100%;
   height: auto;
 }
 
