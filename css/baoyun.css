@@ -151,8 +151,8 @@ margin-left: 25%;
 }
 
 .zs{
+  margin-bottom: 5%;
 }
-
 .sj-zs{
   width:100%;
   height: auto;
@@ -165,9 +165,59 @@ margin-left: 25%;
 
 .cp-word{
   text-align: center;
+  margin-top: 10%;
 }
-
+.tip{
+  margin-bottom: 10%;
+}
 .st-img {
   width: 12%;
   height: auto;
+}
+.dz{
+  margin-bottom:65%;
+  margin-top: 15%;
+
+}
+.dz-p{
+  float:left;
+  width:18%;
+  height:auto;
+}
+
+.dz-img{
+  width:100%;
+  height: auto;
+}
+.dz-b img{
+  margin-top: -20%;
+  width:100%;
+  height:auto;
+}
+
+.dz-word{
+  margin-top: -40%;
+  color: white;
+}
+
+.sjt img{
+  float:left;
+  width:2%;
+  height:auto;
+  margin-top: 20%;
+}
+
+.bg-image{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.qt{
+  margin-top: 50%;
+}
+
+.qt-word{
+  color: white;
+  margin-top: 10%;
 }
