@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-zip nykj.zip index.html image css
+zip nykj.zip index.html image/* css/*.css
