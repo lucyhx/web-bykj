@@ -214,11 +214,16 @@
   color: white;
 }
 
-.sjt img {
+.sjt {
   float: left;
   width: 2%;
   height: auto;
-  margin-top: 20%;
+  margin-top: 16%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .bg-image {
