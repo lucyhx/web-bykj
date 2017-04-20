@@ -4,19 +4,17 @@
   border: 0;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 200px;
-  margin-left: 10px;
+
+  margin-right: 20%;
   float: right;
-  width: 400px;
-  margin-top: 10px;
+  width: 30%;
+  margin-top: 0.5%;
 }
 
 .navbar-brand{
   padding: 0;
 }
-.carousel-indicators li{
+/*.carousel-indicators li{
   border-radius: 0;
   width: 46px;
   height: 6px;
@@ -29,14 +27,12 @@
   height: 6px;
   background: #ffd900;
   margin: 1px 10px;
-}
+}*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: #00afed;
   background: none;
 }
-.navbar>.container .navbar-brand{
 
-}
 /*大屏幕*/
 @media (min-width: 768px){
   .navbar>.container .navbar-brand{
@@ -60,9 +56,9 @@
   .collapse-baoyun .navbar-nav>li>a small {
     display: block;
   }
-  .carousel-indicators {
+ /* .carousel-indicators {
     bottom: 0;
-  }
+  }*/
 }
 .img-responsive{
   width:100%;
@@ -108,7 +104,7 @@
   margin-bottom: 10%;
 }
 .gs-img{
-margin-left: 25%;
+  margin-left: 25%;
   width:100%;
   height:auto;
 
@@ -220,4 +216,16 @@ margin-left: 25%;
 .qt-word{
   color: white;
   margin-top: 10%;
+}
+
+.end{
+  margin-top: 3%;
+}
+
+.end-p{
+  margin-left: -1%;
+}
+
+.end-word{
+  color: #777;
 }
