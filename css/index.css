@@ -50,9 +50,11 @@
     font-size: 60px;
     color: #ffd900;
   }
-.navbar-baoyun{
-  margin-left:-1%;
-}
+
+  .navbar-baoyun {
+    margin-left: -1%;
+  }
+
   .collapse-baoyun {
     margin-top: 18px;
   }
