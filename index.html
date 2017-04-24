@@ -23,6 +23,7 @@
   <!--[if lt IE 9]>
   <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <script src="./js/swiper.min.js"></script>
   <![endif]-->
 </head>
 <body>
@@ -167,77 +168,89 @@
         <div class="gs">
           <h1>产品</h1>
         </div>
-        <div class="zs">
-          <div class="col-xs-2 col-md-1">
+        <div class="zs swiper-container">
+          <!--<div class="col-xs-2 col-md-1">
             <img class="jt-img-l" src="image/yjiantou.png">
           </div>
-          <div class="col-xs-8 col-md-10">
-            <div class="cp-sj">
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">司机通过排队系统定时定点进场拉货</p>
+          <div class="col-xs-8 col-md-10">-->
+
+          <div class="cp-sj">
+            <div class="col-xs-2 col-md-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="width:25%;margin-right: 0;">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">司机通过排队系统定时定点进场拉货</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">库区的出库计划让货主更合理地安排出货</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">模拟库区出货口，出货通道，最真还原库区现场情况</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">查看排队情况，及时了解司机位置及其他信息</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">出货任务开始后若发现司机不能及时到位，可另行安排好友司机或者其他司机</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">库区可通过保运随时查看库存情况</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-2 col-md-3">
+                  <div class="sj-zs">
+                    <img src="image/shouji.png">
+                    <p class="cp-word">在线视频合同，方便可靠</p>
+                  </div>
                 </div>
               </div>
-
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">库区的出库计划让货主更合理地安排出货</p>
+              <div class="swiper-pagination">
+                <div class="tip">
+                  <img class="st-img" src="image/bluetip.png">
                 </div>
               </div>
-
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">模拟库区出货口，出货通道，最真还原库区现场情况</p>
-                </div>
-              </div>
-
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">查看排队情况，及时了解司机位置及其他信息</p>
-                </div>
-              </div>
-
-              <!--<div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">出货任务开始后若发现司机不能及时到位，可另行安排好友司机或者其他司机</p>
-                </div>
-              </div>
-
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">库区可通过保运随时查看库存情况</p>
-                </div>
-              </div>
-
-              <div class="col-xs-2 col-md-3">
-                <div class="sj-zs">
-                  <img src="image/shouji.png">
-                  <p class="cp-word">在线视频合同，方便可靠</p>
-                </div>
-              </div>-->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
 
             </div>
-            <div class="col-xs-10 col-md-8 col-xs-offset-2 col-md-offset-2 text-center">
-              <div class="tip">
-                <img class="st-img" src="image/blacktip.png">
-                <img class="st-img" src="image/blacktip.png">
-                <img class="st-img" src="image/bluetip.png">
-                <img class="st-img" src="image/bluetip.png">
-                <img class="st-img" src="image/bluetip.png">
-                <img class="st-img" src="image/bluetip.png">
-                <img class="st-img" src="image/blacktip.png">
-              </div>
-            </div>
-          </div>
+            <!-- <div class="col-xs-10 col-md-8 col-xs-offset-2 col-md-offset-2 text-center">
+               <div class="tip">
+                 <img class="st-img" src="image/blacktip.png">
+                 <img class="st-img" src="image/blacktip.png">
+                 <img class="st-img" src="image/bluetip.png">
+                 <img class="st-img" src="image/bluetip.png">
+                 <img class="st-img" src="image/bluetip.png">
+                 <img class="st-img" src="image/bluetip.png">
+                 <img class="st-img" src="image/blacktip.png">
+               </div>
+             </div>
+           </div>
 
-          <div class="col-xs-2 col-md-1">
-            <img class="jt-img-r" src="image/zjiantou.png">
+           <div class="col-xs-2 col-md-1">
+             <img class="jt-img-r" src="image/zjiantou.png">
+           </div>-->
           </div>
         </div>
       </div>
