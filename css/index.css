@@ -319,6 +319,10 @@
     height: auto;
     background-size: cover;
   }
+  .navbar-brand{
+    height: 100%;
+    width:auto;
+  }
 
   .carousel-baoyun {
     margin-top: -46px;
@@ -345,6 +349,9 @@
     height: 4px;
     margin: 1px 6px;
   }
+  h1{
+    font-size: 30px;
+  }
 
   .gs-bz {
     margin-top: 10%;
@@ -368,6 +375,13 @@
 
   .cp-sj .col-xs-2 {
     width: 100%;
+  }
+  .sj-zs{
+    width:80%;
+    height:auto;
+  }
+  .cp-word{
+    font-size: 10px;
   }
 
   .jt-img-l .jt-img-r {
@@ -397,9 +411,17 @@
   }
 
   .navbar-nav {
-    /* margin: 7.5px -15px; */
-    margin-left: -1%;
+    margin: 7.5px -10px;
   }
+  .swiper-button-prev{
+    width:27px;
+    height:22px;
+  }
+  .swiper-button-next{
+    width:27px;
+    height:22px;
+  }
+
 }
 
 /*swiper*/
@@ -429,12 +451,4 @@
   align-items: center;
 
   position: static;
-}
-
-.swiper-button-prev {
-  top: 40%;
-}
-
-.swiper-button-next {
-  top: 40%;
 }
