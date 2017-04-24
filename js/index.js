@@ -1,33 +1,26 @@
-var appendNumber = 4
-var prependNumber = 1
-var swiper = new Swiper('.swiper-container', {
-  pagination: '.swiper-pagination',
-  nextButton: '.swiper-button-next',
-  prevButton: '.swiper-button-prev',
-  slidesPerView: 3,
-  centeredSlides: true,
-  paginationClickable: true,
-  spaceBetween: 30,
+$(document).ready(function () {
+  var mySwiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,
+    loop: true,
+    paginationType: 'custom',
+    paginationClickable: true,
+    paginationCustomRender: function (swiper, current, total) {
+      var html = '<div class="text-center tip">'
+      for (var i = 0; i < total; i++) {
+        if (i === (current + 5) % total || i === (current + 6) % total || i === (current + 7) % total) {
+          html += '<img class="st-img" src="image/bluetip.png">'
+        } else {
+          html += '<img class="st-img" src="image/blacktip.png">'
+        }
+      }
+      html += '</div>'
+      return html
+    }
+  })
 })
-document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
-  e.preventDefault()
-  swiper.prependSlide([
-    '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
-    '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
-  ])
-})
-document.querySelector('.prepend-slide').addEventListener('click', function (e) {
-  e.preventDefault()
-  swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>')
-})
-document.querySelector('.append-slide').addEventListener('click', function (e) {
-  e.preventDefault()
-  swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>')
-})
-document.querySelector('.append-2-slides').addEventListener('click', function (e) {
-  e.preventDefault()
-  swiper.appendSlide([
-    '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
-    '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
-  ])
-})
+
