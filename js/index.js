@@ -10,11 +10,9 @@ $(document).ready(function () {
     paginationCustomRender: function (swiper, current, total) {
       var html = '<div class="text-center tip">'
       for (var i = 0; i < total; i++) {
-        if (i === (current-1 ) % total || i === (current ) % total || i === (current + 1) % total) {
-          html += '<img class="st-img" src="image/bluetip.png">'
-        } else {
-          html += '<img class="st-img" src="image/blacktip.png">'
-        }
+        html += '<img class="st-img" src="image/'
+          + ((i === (current - 1 ) % total || i === (current ) % total || i === (current + 1) % total)
+            ? 'bluetip.png' : 'blacktip.png') + '">'
       }
       html += '</div>'
       return html
