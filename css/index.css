@@ -313,10 +313,11 @@
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: #fff;
     border-bottom: 1px solid #ddd;
+
   }
 
   .navbar-baoyun {
-    height: auto;
+    /*height: 79px;*/
     background-size: cover;
   }
 
@@ -324,7 +325,15 @@
     height: 100%;
     width: auto;
   }
+  .navbar-brand img{
+    width:20%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  #navbar .navbar-nav {
+    float:left;
 
+}
   .carousel-baoyun {
     margin-top: -46px;
   }
@@ -361,7 +370,7 @@
   }
 
   body {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   #cp .col-md-1 {
@@ -379,25 +388,33 @@
     width: 100%;
   }
 
-  .sj-zs {
-    width: 80%;
-    height: auto;
-  }
+
 
   .cp-word {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .jt-img-l .jt-img-r {
     width: 50%;
   }
 
+  .dz-p{
+    width:70%;
+    height: auto;
+    margin-bottom: 10%;
+    margin-left: 15%;
+  }
+
   .dz-word p {
-    font-size: .85em;
+    font-size: 14px;
+  }
+  .dz-word img{
+    width:100%;
+    height: 80px;
   }
 
   .sjt img {
-    width: 100%;
+    width: 0;
   }
 
   .bg-image {
@@ -410,8 +427,8 @@
 
   .navbar-default .navbar-nav > li > a {
     color: #777;
-    float: left;
-    padding: 1%;
+    /*float: left;
+    padding: 1%;*/
   }
 
   .navbar-nav {
@@ -419,7 +436,7 @@
   }
 
   .nav-header a {
-    min-width: 50px;
+    min-width: 60px;
   }
 
   .swiper-button-prev {
