@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "gitpacker": "^1.2.2",
-    "webpack": "^2.4.1"
+    "gitpacker": "*"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
