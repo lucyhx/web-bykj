@@ -60,6 +60,20 @@ module.exports = function (grunt) {
           {expand: true, cwd: 'app/image/', src: '*', dest: 'dist/image/'},
         ],
       },
+    },
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@lucyhx.github.com:lucyhx/web-bykj.git',
+          branch: 'gh-pages'
+        }
+      }
     }
   })
 
@@ -68,6 +82,9 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin')
   grunt.loadNpmTasks('grunt-contrib-htmlmin')
   grunt.loadNpmTasks('grunt-contrib-copy')
+  grunt.loadNpmTasks('grunt-build-control')
 
   grunt.registerTask('default', ['concat', 'uglify', 'cssmin', 'htmlmin', 'copy'])
+
+  grunt.registerTask('build', ['buildcontrol'])
 }
